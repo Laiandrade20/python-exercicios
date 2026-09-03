@@ -1,28 +1,48 @@
-#  Python — Exercícios e Projetos
+# Python — exercícios e projetos
 
-Este repositório reúne exercícios e pequenos projetos desenvolvidos durante meus estudos de **Python**.
+Este repositório registra minha evolução em Python por meio de exercícios e projetos práticos. O foco é desenvolver uma base sólida em programação e aplicar os conhecimentos em **testes automatizados, APIs, análise de dados e automação de tarefas**.
 
-O objetivo é registrar minha evolução na linguagem, praticando lógica de programação e aplicando os conceitos aprendidos ao longo do curso.
+## Projeto em destaque
 
-##  Conteúdos
+### Estimador de orçamento em ACM
 
-Atualmente estou praticando:
+Aplicação de linha de comando que calcula área de compra, custo de material, instalação e valor total de um orçamento de ACM.
 
-- Variáveis e tipos de dados
-- Operadores
-- Entrada e saída de dados
-- Estruturas condicionais (`if`, `elif` e `else`)
-- Operadores lógicos
-- Resolução de problemas com Python
+O projeto conecta programação à minha experiência com projetos e orçamentos na área de Engenharia Civil.
 
-##  Objetivo
+**Conhecimentos demonstrados:**
 
-Construir uma base sólida em Python e evoluir gradualmente para projetos mais completos, explorando também automação e aplicações práticas da programação.
+- funções e organização modular;
+- validação de dados e tratamento de erros;
+- orientação a objetos com `dataclass`;
+- testes automatizados com `pytest`;
+- integração contínua com GitHub Actions;
+- documentação e boas práticas de Git.
 
-##  Organização
+Para executar:
 
-Os exercícios serão organizados por assunto conforme meu avanço nos estudos.
+```bash
+python -m projetos.estimador_acm.main
+```
+
+Para rodar os testes:
+
+```bash
+python -m pip install -r requirements-dev.txt
+pytest
+```
+
+## Próximas etapas
+
+- transformar o estimador em uma API com FastAPI;
+- analisar históricos de orçamento usando Pandas e SQL;
+- automatizar a geração de relatórios;
+- publicar exercícios de lógica por assunto.
+
+## Tecnologias em estudo
+
+Python · Pytest · Git · GitHub Actions · SQL · Pandas · FastAPI
 
 ---
 
-Repositório em constante atualização.
+Repositório em evolução contínua, com commits que documentam meu aprendizado.
