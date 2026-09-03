@@ -1,28 +1,45 @@
-#  Python — Exercícios e Projetos
+# Python — exercícios e projetos
 
-Este repositório reúne exercícios e pequenos projetos desenvolvidos durante meus estudos de **Python**.
+Este repositório acompanha meus **primeiros passos em Python**. Aqui organizo exercícios simples e projetos guiados enquanto desenvolvo lógica de programação e aprendo a usar Git e GitHub.
 
-O objetivo é registrar minha evolução na linguagem, praticando lógica de programação e aplicando os conceitos aprendidos ao longo do curso.
+## Conteúdos que estou estudando
 
-##  Conteúdos
+- variáveis e tipos de dados;
+- operadores;
+- entrada e saída de dados;
+- estruturas condicionais (`if`, `elif` e `else`);
+- operadores lógicos;
+- resolução de problemas com Python.
 
-Atualmente estou praticando:
+## Primeiro projeto guiado
 
-- Variáveis e tipos de dados
-- Operadores
-- Entrada e saída de dados
-- Estruturas condicionais (`if`, `elif` e `else`)
-- Operadores lógicos
-- Resolução de problemas com Python
+### Estimador de orçamento em ACM
 
-##  Objetivo
+Aplicação de linha de comando que calcula área de compra, custo de material, instalação e valor total de um orçamento de ACM.
 
-Construir uma base sólida em Python e evoluir gradualmente para projetos mais completos, explorando também automação e aplicações práticas da programação.
+O projeto apresenta conceitos que estudarei e compreenderei passo a passo, como organização em módulos, validação de dados e testes automatizados.
 
-##  Organização
+Para executar:
 
-Os exercícios serão organizados por assunto conforme meu avanço nos estudos.
+```bash
+python -m projetos.estimador_acm.main
+```
+
+Para rodar os testes:
+
+```bash
+python -m pip install -r requirements-dev.txt
+pytest
+```
+
+## Próximos aprendizados
+
+- aprofundar os fundamentos de Python;
+- compreender e criar meus próprios testes automatizados;
+- automatizar tarefas repetitivas;
+- estudar SQL e análise de dados com Pandas;
+- aprender a criar APIs com FastAPI.
 
 ---
 
-Repositório em constante atualização.
+Este repositório será atualizado conforme meu avanço nos estudos.
